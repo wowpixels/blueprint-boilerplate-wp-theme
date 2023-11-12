@@ -9,7 +9,7 @@
     "dev": "npm-run-all --parallel sync twatch"
   },
   "keywords": [],
-  "author": "Twana Gul",
+  "author": "Twana Gul - Wowpixels",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.29.3",

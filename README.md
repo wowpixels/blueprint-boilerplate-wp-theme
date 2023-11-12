@@ -15,6 +15,8 @@ npm install
 
 ### Run the theme
 
+Add you local domain in the package.json file under the script "sync". For example: 'blueprint.local'
+
 ```bash
 npm run dev
 ```
