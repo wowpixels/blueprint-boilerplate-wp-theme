@@ -1,0 +1,19 @@
+{
+  "name": "blueprint-boilerplate-theme",
+  "version": "1.0.0",
+  "description": "A boilerplate theme for creating WordPress Block themes using TailwindCSS.",
+  "scripts": {
+    "twatch": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch --minify",
+    "tbuild": "tailwindcss -i ./src/index.css -o ./build/output.css --minify",
+    "sync": "browser-sync start -p 'blueprint.local' --files '**/*.php' 'templates/*.html' 'parts/*.html' 'patterns/*.html' 'assets/css/*.css' 'assets/js/*.js' 'build/*.js' 'build/*.css'",
+    "dev": "npm-run-all --parallel sync twatch"
+  },
+  "keywords": [],
+  "author": "Twana Gul",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "npm-run-all": "^4.1.5",
+    "tailwindcss": "^3.3.5"
+  }
+}

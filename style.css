@@ -1,0 +1,14 @@
+/*
+Theme Name: Blueprint
+Theme URI: https://wp-blueprint.wowpixels.dev
+Author: Twana Gul
+Author URI: https://wowpixels.dev
+Description: A blueprint for creating a theme in WordPress.
+Tags: blueprint, boilerplate, theme, WordPress, tailwindcss, alpinejs
+Version: 1.0
+Text Domain: blueprint
+*/
+
+/* This file only exists for the sake of WordPress recognizing our theme / theme name etc... */
+
+/* We do not include CSS here and also WordPress will not load this file on the front-end */
